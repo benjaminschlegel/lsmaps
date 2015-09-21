@@ -1,0 +1,22 @@
+Package: lsmapps
+Title: Shiny wrapper for apps at the chair of political methodology
+Description: Shiny wrapper for UI of the applications for the course
+    "Angewandte Methoden" by Prof. Marco Steenbergen at the University of
+    Zurich's institute for political science.
+Version: 0.4.3
+Depends:
+    R (>= 3.0.0),
+    shiny (>= 0.6.0),
+    XML
+Authors@R: c(person("Christian", "Mueller", role = c("aut", "cre"),
+    email = "christian.mueller3@uzh.ch"),
+    person(c("Marco", "R."), "Steenbergen", role = "aut"))
+Maintainer: Benjamin Schlegel <kontakt@benjaminschlegel.ch>
+Author: Benjamin Schlegel
+License: GPL
+LazyData: true
+Collate:
+    'ui.r'
+    'lsmapps-package.r'
+    'html-helpers.r'
+    'render.r'

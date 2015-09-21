@@ -1,0 +1,12 @@
+lsmapps 0.3
+-----------
+
+* NEW render standalone page
+* NEW automagically add class="active" for navbar elements
+* better html URIs that work in more cases
+
+lsmapps 0.2
+-----------
+
+* first real dropdown menu for distribution apps
+* change utf-8 characters to escape sequences
